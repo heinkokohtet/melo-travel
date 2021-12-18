@@ -1,0 +1,155 @@
+
+/* nav bars */
+
+.navbar{
+	box-shadow: 0 12px 17px 0 rgba(0,0,0,.2);
+	background-color: white;
+}
+
+
+/* logo */
+
+.logo{
+	width:80px;
+	height: 70px;"
+}
+
+/* content */
+.mt-0{
+	text-align: center;
+	padding: 15px;
+}
+
+.lead{
+	text-align: center;
+	margin-left: 30px;
+}
+
+
+.card-group{
+	padding: 20px;
+}
+
+.list-group{
+	padding: 20px;
+}
+
+
+/* footer */
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 2px 2px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+}
+
+/* instagram button class*/
+.instagramBtn{
+    background: #125688;
+}
+
+.instagramBtn:before{
+      font-family: "FontAwesome";
+      content: "\f16d"; /* add instagram icon */
+}
+
+.instagramBtn:hover{
+      color: #125688;
+      background: #fff;
+}
+
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: #0094BC;
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+}
+
+
+.card-title{
+	text-align: center;
+}
+
+.card-text{
+	text-align: center;
+}
+
+#list{
+  text-decoration: none;
+}
+
+
+#place{
+	margin-top: 40px;
+}
+
+
+#form{
+	max-width: 500px;
+  	padding: 20px;
+  	margin: 50px auto;
+  	background-color: #fff;
+  	border: 1px solid rgba(0,0,0,0.1);  
+}
+
+
+#edit{
+  margin: 50px;
+  font-size:24px;
+}
+
+#delete{
+  font-size: 24px;
+}
+
+
+.fa{
+  padding: 10px;
+}
+
+
+#comment{
+  padding: 110px;
+  text-decoration: none;
+}
